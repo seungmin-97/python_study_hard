@@ -33,3 +33,9 @@ github에 다시 추가된 파일 / 코드를 올리는데
 git add .
 git commit -m "feat: 20250212 hello.md uploaded"
 git push
+
+20250213
+
+가장 상위 폴더 우클릭 -> new -> python package
+-> chapter9_classes
+-> chapter10_coffee_machine_pop
