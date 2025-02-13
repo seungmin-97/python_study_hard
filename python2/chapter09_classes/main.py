@@ -1,5 +1,5 @@
 '''
-chapter9_classes 우클릭 -> new -> python file -> main 입력
+chapter09_classes 우클릭 -> new -> python file -> main 입력
 
 1. 클래스 도입의 필요성
 '''
