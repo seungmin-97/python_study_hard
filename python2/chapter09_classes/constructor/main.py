@@ -1,7 +1,7 @@
 '''
 1. 생성자(constructor)
 '''
-
+from statistics import stdev
 
 # 클래스 정의
 # class Candy:
@@ -156,21 +156,21 @@ del man
 james is dead.
 '''
 
-class Person:
-
-    def __init__(self,name):
-        self.name = name
-        print(f"{self.name}is born")
-
-    def __del__(self):
-        print(f"{self.name} is dead")
-
-man = Person("james")
-woman = Person("emily")
-
-del man
-
-print("프로그램이 종료되었습니다.")
+# class Person:
+#
+#     def __init__(self,name):
+#         self.name = name
+#         print(f"{self.name}is born")
+#
+#     def __del__(self):
+#         print(f"{self.name} is dead")
+#
+# man = Person("james")
+# woman = Person("emily")
+#
+# del man
+#
+# print("프로그램이 종료되었습니다.")
 
 '''
 예제 1.
@@ -201,11 +201,130 @@ print("프로그램이 종료되었습니다.")
       다시 print_profile을 적용하여 출력하시오.
 '''
 
-class Student:
+# class Student:
+#
+#     def __init__(self, name, student_id, grade):
+#         self.name = name
+#         self.student_id = student_id
+#         self.grade = grade
+#
+#     def print_profile(self):                            # 잠제적인 문제점: 모든 속성을 전부 확인해야 한다는 점
+#         print(f"학생 이름: {self.name}")                 # 콘솔에 찍히는 call1() -> 수학적인 연산이 불가능하다는 점
+#         print(f"학번: {self.student_id}")
+#         print(f"학점: {self.grade}")
+#
+#     # 이상의 코드는 console에 찍히기만 할 뿐 연산이 불가능하기 때문에 getter는 call1()유형으로 작성하기 보다는
+#     # call3() 매개변수x / 리턴o 형태도 작성합니다.
+#     def get_grade(self):
+#         return self.grade
+#
+#     # grade만 바꾸게 될 메서드 -> set_info(): Book 클래스의 set_info() 매서드를 참조하시면 됩니다.
+#     # setter 정의
+#     def set_grade(self, grade):
+#         if grade not in ["A+","A","B+","B","C+","C","D+","D","F"]:
+#             print(f"{grade}는 불가능한 점수 입력입니다.")
+#             return                      # 조건문에 return 걸고 아무것도 쓰지 않으면 그대로 매서드 종료
+#         self.grade = grade              # Book클래스에서 set_info(self, title, author):
+#
+# # # 객체 생성
+# # student1 = Student("김철수",20250001,"A")
+# # # 인스턴스 매서드를 호출
+# # student1.print_profile()
+# #
+# # # 속성값을 직접 참조해서 바꾸는 방법
+# # student1.grade = "A+"
+# #
+# # student1.print_profile()
+# # student1.grade = "??"                                   # 직접 입력했기 때문에
+# # student1.print_profile()                                # 결과값: ??(말도안되는 값을 넣더라도 일단 가능) ->으로 나왔습니다.
+# # student1.set_grade("A+")
+# # student1.print_profile()
+# #
+# # student1.set_grade(":>")
+# # 이상을 이유로 인스턴스 변수에 값을 대입할 때 제약을 걸기 위해 method를 경유하여 값을 대입하도록
+# # 권장함. -> setter(call2()유형) / getter(call3()유형)이라는 개념 -> 클래스로 돌아가서 해당 매서드를 추가하겠습니다.
+#
+# # 지시사항에 따른
+# student1 = Student("김철수", 20250001, "A")
+# student2 = Student("이영희", 20250002, "B")
+# student3 = Student("박민지", 20250003, "C")
+#
+# # 인스턴스 매서드 호출
+# student1.print_profile()
+# student2.print_profile()
+# student3.print_profile()
+#
+# # setter 이용하여 성적에 해당하는 속성값 변환
+# student1.set_grade("A+")
+# student2.set_grade("A")
+# student3.set_grade("B+")
+#
+# # 바꾼 것을 확인하기 위해 인스턴스 매서드 호출
+# student1.print_profile()
+# student2.print_profile()
+# student3.print_profile()
 
-    def __init__(self, name, student_id, grade):
+'''
+1. Setter / Getter란?
+    1) setter: 객체의 속성 값(인스턴스 변수)을 변경하는 매서드
+    2) Getter: 객체의 속성 값(인스턴스 변수)를 조회하는 매서드
+    
+    3) 왜 Setter / Getter를 사용하는 가?
+        (1) 데이터 보호 및 무결성 유지
+            : 속성 값을 직접 변경하는 경우, 잘못된 값이 입력될 가능성이 높음
+            : Setter를 사용하면 특정 조건을 만족하는 값만 속성에 대입 가능
+        (2) 객체의 캡슐화(Encapsulation) 실현
+            : 객체의 내부 데이터를 외부에서 직접 수정하는 것을 방지
+            : 대신 메서드를 통해서만 접근하도록 제한하여 보안성을 높임
+        (3) 추후 유지 보수 및 확장성 용이
+            : Setter / Getter를 사용하면 특정 속성에 대한 로직을 쉽게 변경 가능(if절 바꾸는거 생각하시면 됩니다.)
+            : 예를 들어, 특정 속성을 설정할 때 추가적인 검증이 필요하면 Setter에서 처리 가능
+        
+2. 이제 클래스를 정의할 때 기본적으로 Setter / Getter를 타이핑하면서 형태를 배울 예정입니다.
+    1) Setter: call2() 유형 -> 매개변수o / 리턴 x
+    2) Getter: call3() 유형 -> 매개변수 x / 리턴 o
+'''
+# Setter / Getter 적용된 클래스 정의 예시
+class Person:
+    def __init__(self, name, age, address):
         self.name = name
-        self.student_id = student_id
-        self.grade = grade
+        self.age = age
+        self.address = address
 
-student1 = Student("김철수",20250001,"A")
+    # setter 정의
+    def set_name(self, name):
+        self.name= name
+
+    # getter 정의 예시
+    def get_name(self):
+        return self.name
+
+    # set_age / set_address를 정의하는데, set_age의 경우 0 미만 및 200 초과 입력 불가능하게
+    # 로직을 작성하시오.
+
+    def set_address(self,address):
+        self.address = address
+
+    def set_age(self,age):
+        if age < 0 or age > 200:
+            print("불가능한 나이 입력입니다.")
+            return
+        self.age = age
+
+    # get_age / get_address를 정의하세요
+
+
+# 객체 생성
+
+# person = Person("박승민",18,"부산광역시 영도구")
+#
+# print(f"제 이름은 {person.get_name()}입니다.")
+# print(f"나이는 {person.get_age()}인데, 만으로는 {person.get_age()-2}살 입니다.")         # 이런 이류로 getter 사용함.
+# print(f"현제 {person.get_address()}에 살고 있습니다.")
+#
+# # 불가능한 나이 입력
+# person.set_age(-30)
+
+
+
+
