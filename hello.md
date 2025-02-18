@@ -39,3 +39,10 @@ git push
 가장 상위 폴더 우클릭 -> new -> python package
 -> chapter9_classes
 -> chapter10_coffee_machine_pop
+
+20250218 coffee machine pop version complete
+
+-> 여러분들이 내일 준비할 것은 
+menu, coffee_maker, money_machine 세 개의 파이썬 모듈(파일)
+확인하시고 어떻게 잘 조립해서
+main에 작성하면 커피머신이 완성될지 고민해보도록 하겠습니다.

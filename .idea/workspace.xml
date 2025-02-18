@@ -5,12 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e77df909-5387-47d4-b273-be2c69a49e51" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/python2/chapter09_classes/bank_account/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python2/chapter09_classes/bank_account/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python2/chapter10_coffee_machine_pop/coffee_machine_manual.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python2/chapter10_coffee_machine_pop/op_version/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python2/chapter10_coffee_machine_pop/op_version/coffee_master.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python2/chapter10_coffee_machine_pop/op_version/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python2/chapter10_coffee_machine_pop/pop_version/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python2/chapter10_coffee_machine_pop/pop_version/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python2/chapter10_coffee_machine_pop/pop_version2/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python2/chapter10_coffee_machine_pop/pop_version2/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python2/chapter09_classes/constructor/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/python2/chapter09_classes/constructor/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python2/chapter10_coffee_machine_pop/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/python2/chapter10_coffee_machine_pop/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python1/chapter02_condition/leap_year/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/python1/chapter02_condition/leap_year/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python1/chapter06_functions/scope/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/python1/chapter06_functions/scope/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python2/chapter10_coffee_machine_pop/coffee_machine_manual" beforeDir="false" afterPath="$PROJECT_DIR$/python2/chapter10_coffee_machine_pop/pop_version/coffee_machine_manual" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python2/chapter10_coffee_machine_pop/main.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,6 +63,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\PSM_python\python2\chapter10_coffee_machine_pop\pop_version" />
       <recent name="E:\PSM_python\python2\chapter10_coffee_machine_pop" />
       <recent name="E:\PSM_python\python2\chapter9_classes" />
       <recent name="E:\PSM_python\python1" />

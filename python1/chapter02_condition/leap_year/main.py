@@ -57,7 +57,4 @@ if year % 400 == 0 or (year % 100 != 0 and year % 4 == 0):
 else:
     print(f"{year}년은 윤년이 아닙니다.")
 
-'''
-bmi_calc_upgraded package 생성
-main.py 생성
-'''
+
