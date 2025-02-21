@@ -5,10 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e77df909-5387-47d4-b273-be2c69a49e51" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/python2/chapter12_turtle/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python2/chapter12_turtle/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python2/chapter13_prettytable/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python2/chapter13_prettytable/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python2/chapter13_prettytable/pokemon_data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python2/chapter13_prettytable/pretty_table_manual.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python2/chapter11_class_and_static/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/python2/chapter11_class_and_static/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello.md" beforeDir="false" afterPath="$PROJECT_DIR$/hello.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python1/chapter0/link.py" beforeDir="false" afterPath="$PROJECT_DIR$/link.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python2/chapter12_turtle/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/python2/chapter12_turtle/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,17 +56,22 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/user/Desktop/PSM_python&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/PSM_python&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;Markdown&quot;
+    ]
   }
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\PSM_python" />
       <recent name="E:\PSM_python\python2\chapter10_coffee_machine_pop\op_version" />
       <recent name="E:\PSM_python\python2\chapter10_coffee_machine_pop\pop_version" />
       <recent name="E:\PSM_python\python2\chapter10_coffee_machine_pop" />
       <recent name="E:\PSM_python\python2\chapter9_classes" />
-      <recent name="E:\PSM_python\python1" />
     </key>
   </component>
   <component name="SharedIndexes">
