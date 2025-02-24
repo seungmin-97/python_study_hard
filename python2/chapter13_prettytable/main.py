@@ -8,6 +8,7 @@
 '''
 from prettytable import PrettyTable
 from pokemon_data import pokemon_data
+from python2.chapter13_prettytable.pokemon_data import pokemon_data
 
 # print(pokemon_data[0][1])
 
@@ -58,7 +59,14 @@ table = PrettyTable()
 
 table.field_names = ["번호", "이름", "타입"]
 example1 = (1, "이상해씨", "풀/독")
-table.add_row(pokemon_data[0])
+# 향상된 for 문
+# for pokemon in pokemon_data:
+#     table.add_row(pokemon)      # pokemon_data[25]
 
+# 일반 for 문
+for i in range(len(pokemon_data)):          # 0번지 ~ 25번지
+    table.add_row(pokemon_data[i])
+
+# 데이터를 그대로 집어넣는 것을 하드코딩
 
 print(table)

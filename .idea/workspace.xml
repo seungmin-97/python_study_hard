@@ -5,15 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e77df909-5387-47d4-b273-be2c69a49e51" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/python2/chapter13_prettytable/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python2/chapter13_prettytable/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python2/chapter13_prettytable/pokemon_data.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python2/chapter13_prettytable/pretty_table_manual.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python2/chapter14_excption/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python2/chapter14_excption/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello.md" beforeDir="false" afterPath="$PROJECT_DIR$/hello.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python1/chapter0/link.py" beforeDir="false" afterPath="$PROJECT_DIR$/link.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python2/chapter12_turtle/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/python2/chapter12_turtle/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python2/chapter13_prettytable/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/python2/chapter13_prettytable/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
