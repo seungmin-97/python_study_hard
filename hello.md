@@ -50,3 +50,7 @@ main에 작성하면 커피머신이 완성될지 고민해보도록 하겠습�
 git add .
 git commit -m "feat: 20250221 pretty table study"
 git push
+
+git add .
+git commit -m "feat: 20250226 python lesson finished"
+git push
